@@ -1,0 +1,38 @@
+site_name: 'society0x'
+repo_name: 'revolution0x/society0x-wiki'
+repo_url: 'https://github.com/revolution0x/society0x-wiki'
+site_description: 'Wiki for society0x'
+theme:
+  name: 'material'
+  palette:
+    primary: 'blue grey'
+    accent: 'cyan'
+  font:
+      text: 'Overpass'
+      code: 'Overpass Mono'
+  logo: 'images/logo.png'
+  favicon: 'images/favicon.ico'
+extra_css:
+  - 'stylesheets/extra.css'
+extra_javascript:
+  - 'javascript/extra.js'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/revolution0x/society0x'
+    - type: 'twitter'
+      link: 'https://twitter.com/society0x'
+  feature:
+    tabs: false
+markdown_extensions:
+    - admonition
+pages:
+  - Home: 'index.md'
+  - Dictionary: 'dictionary.md'
+  - Archetypes:
+    - Rapport: 'archetypes/rapport.md'
+    - Signal: 'archetypes/signal.md'
+    - Interference: 'archetypes/interference.md'
+    - Caste: 'archetypes/caste.md'
+    - Persona: 'archetypes/persona.md'
+    - Citizen: 'archetypes/citizen.md'
